@@ -167,7 +167,7 @@ Only changes within Alive-lsp code can be made in this configuration.
 
 This is basically described above in **Initial Steps**. In the Alive-lsp directory:
 * Bring up VSCode.
-* Set the `alive.lsp.install.path` to the root of the Alive-lsp code.
+* Set the `alive.lsp.install.path` in the `.vscode/settings.json` file to the root of the Alive-lsp code.
 * Set the `Output` view to show output from the `Alive LSP` thread.
 * Make changes to the Alive-lsp code (like logging `"Happy!"` at startup).
 * Use the **Developer: Reload Window** command to restart the extension.
@@ -180,7 +180,7 @@ It is often necessary to work on both Alive and Alive-lsp at the same time.
 This configuration allows changes to be made to both codebases.
 
 In the Alive-lsp directory:
-* Set the `alive.lsp.install.path` to the root of the Alive-lsp code.
+* Set the `alive.lsp.install.path` in the `.vscode/settings.json` file to the root of the Alive-lsp code.
 
 In the Alive directory:
 * Bring up VSCode.
